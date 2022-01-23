@@ -1,0 +1,190 @@
+
+
+ /* login_popup */
+
+.popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    /* opacity: 0; */
+    z-index: 0;
+    visibility: hidden;
+    transition: all 0.8s ease 0s;
+}
+.popup:target{
+    /* opacity: 1; */
+    z-index: 10;
+    visibility: visible;
+}
+.popup_area{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.popup_body {
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.popup_content {
+    background-color: white;
+    color: black;
+    max-width: 800px;
+    padding: 30px;
+    position: relative;
+    background-color: rgba(127, 157, 255, 0.808);
+    border-radius: 20px;
+}
+.popup_close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 20px;
+    color: rgba(0, 0, 0);
+    text-decoration: none;
+}
+.popup_title {
+    font-size: 40px;
+    margin: 0px 0px 1em 25px;
+}
+.popup_text {
+    display: block;
+    border: none;
+    max-width: 200px;
+    margin: 40px 40px;
+    max-height: 200px;  
+}
+.inputs {
+    padding: 10px 10px;
+    margin: 10px 10px 20px 10px;   
+    font-size: 12px;
+    border-radius: 10px;
+}
+.inputs1 {
+    margin: 10px 10px 10px 55px;
+    font-size: 16px;
+    padding: 5px 15px;
+    color: rgb(7, 7, 7);
+    background-color: rgb(201, 221, 210);
+    border-radius: 50px;
+}
+.forgot-pass {
+    margin: 20px 10px 10px 40px;
+    border-radius: 5px;
+    color: rgb(253, 40, 2);
+    background-color: none;
+    font-size: 16px;
+    padding: 20px 5px;
+}
+/*>>>>>>>>>>>> _END_login_popup <<<<<<<<<<<<<*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*>>>>>>>>>password_popup <<<<<<<< */
+
+.pass {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.712);
+    top: 0;
+    left: 0;
+    /* opacity: 0; */
+    z-index: 0;
+    visibility: hidden;
+    transition: all 0.3s ease 0s;   
+}
+.pass:target{
+    /* opacity: 1; */
+    z-index: 10;
+    visibility: visible;
+}
+.pass_area{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.pass_body {
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.pass_content {
+    background-color: white;
+    color: black;
+    max-width: 800px;
+    max-height: 330px;
+    padding: 30px;
+    position: relative;
+    background-color: rgba(127, 157, 255, 0.808);
+    border: none;
+    border-radius: 20px;
+}
+.pass_close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 20px;
+    color: rgba(0, 0, 0);
+    text-decoration: none;
+}
+.pass_title {
+    font-size: 40px;
+    margin: 0px 0px 10px 5px;
+    border: none;
+}
+.pass_text {
+    display: block;
+    border: none;
+    max-width: 200px;
+    margin: 40px 40px;
+    max-height: 200px;
+    
+}
+.inputss {
+    padding: 10px 10px;
+    margin: 10px 10px 20px 10px;   
+    font-size: 12px;
+    border-radius: 10px;
+}
+.inputs11 {
+    margin: 50px 10px 10px 55px;
+    font-size: 16px;
+    padding: 5px 15px;
+    color: rgb(7, 7, 7);
+    background-color: rgb(201, 221, 210);
+    border-radius: 50px;
+}
+/*>>>>>>>>>_END_password_popup <<<<<<<< */
+
+
+
+
+
+
+
+
+
+
+
+
